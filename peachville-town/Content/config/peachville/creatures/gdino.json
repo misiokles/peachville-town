@@ -1,0 +1,93 @@
+{
+	"greenDinolet" : 
+	{
+		"name" : { "singular" : "Green Dinolet", "plural" : "Green Dinolets" },
+		
+		"level" : 2,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 110 },
+		
+		"fightValue" : 150,
+		
+		"aiValue" : 150,
+		
+		"growth" : 9,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 6,
+		
+		"defense" : 6,
+		
+		"hitPoints" : 15,
+		
+		"speed" : 4,
+		
+		"damage" : { "min" : 2,"max" : 4},
+		"advMapAmount" : { "min" : 10,"max" : 25},
+
+		"upgrades" :
+		["purpleDinolet"],
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+			"Aura of Resistance" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
+				
+			},
+			
+			"Luck" :
+			{
+				"type" : "SELF_LUCK"
+			},
+			
+			"Spell Cost Reduction" :
+			{
+				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+				"val" : 1
+				
+			}
+			
+		
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/gdino.def",
+
+			"map" : "peachville/map/creatures/gdinoadv.def",
+
+			"iconSmall" : "peachville/iconssmall/gdino32.bmp",
+
+			"iconLarge" : "peachville/iconsbig/dino15864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		
+"sound" : 
+		{
+			"attack": "peachville/hapalops_attack.wav",
+			
+			"defend": "peachville/hapalops_defence.wav",
+
+			"killed": "peachville/hapalops_death.wav",
+
+			"move": "peachville/hapalops_move.wav",
+
+			"wince": "peachville/hapalops_wince.wav"
+		}
+	}
+}

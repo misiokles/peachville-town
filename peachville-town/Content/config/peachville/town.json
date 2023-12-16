@@ -1,0 +1,894 @@
+{
+	"peachville" :
+	{
+		"nativeTerrain": "grass",
+		"alignment" : "good",
+		"creatureBackground" :
+		{
+			"120px" : "peachville/creaturebg120.bmp",
+			"130px" : "peachville/creaturebg130.bmp"
+		},
+		"name" : "Peachville",
+		"puzzleMap" : {
+			"prefix" : "peachville/puzzle-map/SLOTHPUZZLE",
+			"pieces" :
+			[
+				{ "x": 6, "y": 7, "index": 36 },
+				{ "x": 6, "y": 7, "index": 25 },
+				{ "x": 6, "y": 7, "index": 34 },
+				{ "x": 6, "y": 7, "index": 23 },
+				{ "x": 6, "y": 7, "index": 15 },
+				{ "x": 6, "y": 7, "index": 37 },
+				{ "x": 6, "y": 7, "index": 38 },
+				{ "x": 6, "y": 7, "index": 39 },
+				{ "x": 6, "y": 7, "index": 8 },
+				{ "x": 6, "y": 7, "index": 47 },
+				{ "x": 6, "y": 7, "index": 1 },
+				{ "x": 6, "y": 7, "index": 30 },
+				{ "x": 6, "y": 7, "index": 41 },
+				{ "x": 6, "y": 7, "index": 33 },
+				{ "x": 6, "y": 7, "index": 40 },
+				{ "x": 6, "y": 7, "index": 11 },
+				{ "x": 6, "y": 7, "index": 19 },
+				{ "x": 6, "y": 7, "index": 13 },
+				{ "x": 6, "y": 7, "index": 24 },
+				{ "x": 6, "y": 7, "index": 18 },
+				{ "x": 6, "y": 7, "index": 20 },
+				{ "x": 6, "y": 7, "index": 46 },
+				{ "x": 6, "y": 7, "index": 9 },
+				{ "x": 6, "y": 7, "index": 7 },
+				{ "x": 6, "y": 7, "index": 48 },
+				{ "x": 6, "y": 7, "index": 5 },
+				{ "x": 6, "y": 7, "index": 26 },
+				{ "x": 6, "y": 7, "index": 22 },
+				{ "x": 6, "y": 7, "index": 16 },
+				{ "x": 6, "y": 7, "index": 43 },
+				{ "x": 6, "y": 7, "index": 10 },
+				{ "x": 6, "y": 7, "index": 45 },
+				{ "x": 6, "y": 7, "index": 17 },
+				{ "x": 6, "y": 7, "index": 21 },
+				{ "x": 6, "y": 7, "index": 3 },
+				{ "x": 6, "y": 7, "index": 42 },
+				{ "x": 6, "y": 7, "index": 14 },
+				{ "x": 6, "y": 7, "index": 12 },
+				{ "x": 6, "y": 7, "index": 35 },
+				{ "x": 6, "y": 7, "index": 29 },
+				{ "x": 6, "y": 7, "index": 27 },
+				{ "x": 6, "y": 7, "index": 2 },
+				{ "x": 6, "y": 7, "index": 32 },
+				{ "x": 6, "y": 7, "index": 4 },
+				{ "x": 6, "y": 7, "index": 44 },
+				{ "x": 6, "y": 7, "index": 31 },
+				{ "x": 6, "y": 7, "index": 6 },
+				{ "x": 6, "y": 7, "index": 28 }
+			]
+		},
+		"town" :
+		{
+			"mapObject" :
+			{
+				"templates" : {
+					"castle" :  { "animation" : "peachville/map/castle_map.def" },
+					"citadel" : { "animation" : "peachville/map/citadel_map.def" },
+					"fort"    : { "animation" : "peachville/map/fort_map.def" },
+					"village" : { "animation" : "peachville/map/village_map.def" },
+					"capitol" : { "animation" : "peachville/map/capitol_map.def" }
+				}
+			},
+			
+			"buildings" : {
+				"mageGuild1" :
+				{
+					
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+								"mageGuild4" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood": 5,
+                        "mercury": 8,
+                        "ore": 5,
+                        "sulfur": 8,
+                        "crystal": 8,
+                        "gems": 8,
+                        "gold": 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood": 5,
+                        "mercury": 10,
+                        "ore": 10,
+                        "sulfur": 10,
+                        "crystal": 10,
+                        "gems": 10,
+                        "gold": 1000
+					},
+					"id" : 4,
+					"upgrades" : "mageGuild4"
+				},
+				
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				
+				"shipyard" :
+			{
+				"name" : "Shipyard",
+					"description" : "Allows to build boats.",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+					"id" : 6
+				},
+				
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel",
+					"bonuses":[
+					{ "type": "CREATURE_GROWTH", "val": 50, "valueType":"PERCENT_TO_BASE", "subtype":6, "propagator": "VISITED_TOWN_AND_VISITOR" }]
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Resource Silo provides you with an additional +1 gems each day.",
+					//will be +1 random resourse when possible 
+					"name" : "Resource Silo",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with ballista.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				
+				"lighthouse" :
+			{
+					"description" : "Increases boats' movement on water.",
+					"name" : "Lighthouse",
+					"cost" :
+					{
+					"ore" : 10,
+						"gold" : 2000
+					},
+					"requires" : [ "shipyard" ],
+					"id" : 17
+				},
+				"ship" :
+			{
+					"description" : "Boat.",
+					"name" : "Ship.",
+				"cost" : null,
+					
+				"requires" : [ "shipyard" ],
+					"id" : 20
+				},
+				
+				"horde1" :
+				{
+					"description" : "The Horned Gophers' Extra Holes increase horned gophers' production by 6 per week.",
+					"name" : "The Extra Holes",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					
+					"id" : 18,
+					"upgrades" : "dwellingLvl1"	
+				},
+				"horde1Upgr" :
+				{
+					"description" : "The Horned Gophers' Extra Holes increase horned gophers' production by 6 per week.",
+					"name" : "The Extra Holes",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"requires" : ["horde1"],
+					"id" : 19,
+					"upgrades" : "dwellingUpLvl1",
+					"mode" : "auto"
+				},
+				
+				"horde2" :
+				{
+					"description" : "The Greater Woody Hill increase phee beasts' production by 3 per week.",
+					"name" : "The Greater Woody Hill",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"id" : 24,
+					"upgrades" : "dwellingLvl3"	
+				},
+				"horde2Upgr" :
+				{
+					"description" : "The Greater Woody Hill increase phee beasts' production by 3 per week.",
+					"name" : "The Greater Woody Hill",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"requires" : ["horde2"],
+					"id" : 25,
+					"upgrades" : "dwellingUpLvl3",
+					"mode" : "auto"
+				},
+				
+				"special1" : 
+				{
+					"description" : "+1 spell power for visiting hero",
+					"name" : "Magic Peach Orchand",
+				//	"type" : "spellpowerVisitingBonus",
+					"cost" : 
+					{
+					"wood": 5,
+					"gold" : 1000
+					},
+					"id" : 23
+				},
+				
+				"special2": {
+				"description": "Magic Crystal increases spell power by 2 during siege",
+				"name": "Magic Crystal",
+				"cost": {
+				"crystal": 5,
+				"gold": 1000
+				},
+				"requires" : ["special1"],
+					"id": 21
+				//	"bonuses": [ 
+				//	{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 2}
+				//	]
+				},	
+				
+				
+				"grail" :
+				{
+					"description" : "The Magic Whale increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases power and knowledge skills by 6 during siege.",
+					"name" : "The Magic Whale",
+					"id" : 26,
+					"mode" : "grail"
+				//	"bonuses": [ 
+				//	{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 6},
+				//	{ "type": "PRIMARY_SKILL", "subtype": "primSkill.knowledge", "val": 6}
+				//	]
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "Gophers' Holes allow you to recruit Horned Gophers.",
+					"name" : "Gophers' Holes",
+					"cost" : 
+					{
+						"gold" : 500
+					
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "The Dinolets' Site allows you to recruit Green Dinolets.",
+					"name" : "Dinolets' Site",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore": 5,
+						"wood": 5
+					},
+					"requires" : [ "dwellingLvl1" ],
+					"id" : 31
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "The Woody Hill allows you to recruit P Beasts.",
+					"name" : "Woody Hill",
+					"cost" : 
+					{
+						
+                        "ore": 5,
+                        "gold": 2000
+					},
+					"requires" : [ "dwellingLvl2" ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "The Apricot Mushroom allows you to recruit Apricotesses.",
+					"name" : "The Apricot Mushroom",
+					"cost" : 
+					{
+						"wood": 5,
+                        "mercury": 2,
+                        "ore": 5,
+                        "sulfur": 2,
+                        "crystal": 2,
+                        "gems": 2,
+                        "gold": 2000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl3"] ],
+					"id" : 33
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "The Arachnias' Portal allows you to recruit Arachnias.",
+					"name" : "Arachnias' Portal",
+					"cost" : 
+					{
+					
+						"wood": 5,
+						"gold" : 3000,
+						"ore" : 5
+						
+                        
+					},
+					"requires" : ["dwellingLvl4"],
+					"id" : 34
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "The Beasts' Lake allows to recruit Lightning Beasts.",
+					"name" : "The Beasts' Lake",
+					"cost" : 
+					{
+						
+                        "ore": 10,
+                        "crystal": 5,
+                        "gems": 5,
+                        "gold": 4000
+					},
+					"requires" : [ "dwellingLvl5" ],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "The Hoatzins' Trees allow you to recruit Hoatzins",
+					"name" : "The Hoatzins' Trees",
+					"cost" : 
+					{
+						"gold": 10000,
+						"wood": 10,
+						"ore": 10,
+						"gems" : 10
+					},
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl6"] ],
+					"id" : 36
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "The Upg. Gophers' Holes. allow to recruit Greater Horned Gophers",
+					"name" : "The Upg. Gophers' Holes",
+					"cost" :
+					{
+						"gold" : 1000
+					},
+					"id" : 37,
+					"requires" : ["dwellingLvl1"],
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "The Upg. Dinolets' Site allows you to recruit Purple Dinolets.",
+					"name" : "The Upg. Dinolets' Site",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"gems": 5
+            		},
+					"id" : 38,
+					"requires" :[ "allOf", ["mageGuild1"], ["dwellingLvl2"] ],
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "The Upg. Woody Hill allows you to recruit Phee Beasts.",
+					"name" : "Upg. Woody Hill",
+					"cost" : 
+					{
+						"ore": 5,
+                        "gold": 1000
+					},
+					"id" : 39,
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl3"] ],
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "The Upg. Peach Mushroom allows to recruit Peachesses.",
+					"name" : "Upg. Peach Mushroom",
+					"cost" : 
+					{
+						"gold" : 2000,
+						"wood": 5,
+                        "mercury": 3,
+                        "ore": 5,
+                        "sulfur": 3,
+                        "crystal": 3,
+                        "gems": 3
+					},
+					"id" : 40,
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl4"] ],
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					"description" : "The Upg. Arachnias' Portal allows you to recruit Magic Arachnias.",
+					"name" : "Upg. Arachnias' Portal",
+					"cost" : 
+					{
+						"gold" : 3000,
+						"sulfur": 5,
+                        "mercury": 5
+					},
+					"id" : 41,
+					"requires" : [ "dwellingLvl5" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+                    "description" : "The Upg. Beasts' Lake allows you to recruit Great Lightning Beasts.",
+					"name" : "Upg. Beasts' Lake",
+					"cost" : 
+					{
+					
+                        "crystal": 5,
+                        "gems": 5,
+                        "gold": 4000
+					},
+					"id" : 42,
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl6"] ],
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "The Upg. Hoatzins' Trees allow you to recruit Great Hoatzins.",
+					"name" : "The Upg. Hoatzins'",
+					"cost" : 
+					{
+						"gold": 20000,
+						"wood": 20,
+						"gems" : 20
+					},
+					"id" : 43,
+					"requires" : [ "allOf", ["mageGuild3"], ["dwellingLvl7"] ],
+					"upgrades" : "dwellingLvl7"
+				}				
+			},
+			
+			"structures" :
+			{
+				
+				"mageGuild1":     { "animation" : "peachville/town-screen/buildings/TBMSmage.def", "x" : 0, "y" : 0,  "border" : "peachville/town-screen/buildings-border/TOMSmage.bmp", "area" : "peachville/town-screen/buildings-area/TZMSmage.bmp" },
+				"mageGuild2":     { "animation" : "peachville/town-screen/buildings/TBMSmag2.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMSmag2.bmp", "area" : "peachville/town-screen/buildings-area/TZMSmag2.bmp" },
+				"mageGuild3":     { "animation" : "peachville/town-screen/buildings/TBMSmag3.def", "x" : 0, "y" : 0,  "border" : "peachville/town-screen/buildings-border/TOMSmag3.bmp", "area" : "peachville/town-screen/buildings-area/TZMSmag3.bmp" },
+				"mageGuild4":     { "animation" : "peachville/town-screen/buildings/TBMSmag4.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMSmag4.bmp", "area" : "peachville/town-screen/buildings-area/TZMSmag4.bmp" },
+				"mageGuild5":     { "animation" : "peachville/town-screen/buildings/TBMSmag5.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMSmag5.bmp", "area" : "peachville/town-screen/buildings-area/TZMSmag5.bmp" },
+				"tavern":         { "animation" : "peachville/town-screen/buildings/TBMStvrn.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMStvrn.bmp", "area" : "peachville/town-screen/buildings-area/TZMStvrn.bmp" },
+				"shipyard":       { "animation" : "peachville/town-screen/buildings/TBMSship.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMSship.bmp", "area" : "peachville/town-screen/buildings-area/TZMSship.bmp" },
+				"fort":           { "animation" : "peachville/town-screen/buildings/TBMScstl.def", "x" : 0, "y" : 0,            "border" : "peachville/town-screen/buildings-border/TOMScstl.bmp", "area" : "peachville/town-screen/buildings-area/TZMScstl.bmp" },
+				"citadel":        { "animation" : "peachville/town-screen/buildings/TBMScas2.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMScas2.bmp", "area" : "peachville/town-screen/buildings-area/TZMScas2.bmp" },
+				"castle":         { "animation" : "peachville/town-screen/buildings/TBMScas3.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMScas3.bmp", "area" : "peachville/town-screen/buildings-area/TZMScas3.bmp" },
+				"villageHall":    { "animation" : "peachville/town-screen/buildings/TBMShall.def", "x" : 0, "y" : 0,          "border" : "peachville/town-screen/buildings-border/TOMShall.bmp", "area" : "peachville/town-screen/buildings-area/TZMShall.bmp" },
+				"townHall":       { "animation" : "peachville/town-screen/buildings/TBMShal2.def", "x" : 0, "y" : 0,           "border" : "peachville/town-screen/buildings-border/TOMShal2.bmp", "area" : "peachville/town-screen/buildings-area/TZMShal2.bmp" },
+				"cityHall":       { "animation" : "peachville/town-screen/buildings/TBMShal3.def", "x" : 0, "y" : 0,            "border" : "peachville/town-screen/buildings-border/TOMShal3.bmp", "area" : "peachville/town-screen/buildings-area/TZMShal3.bmp" },
+				"capitol":        { "animation" : "peachville/town-screen/buildings/TBMShal4.def", "x" : 0, "y" : 0,           "border" : "peachville/town-screen/buildings-border/TOMShal4.bmp", "area" : "peachville/town-screen/buildings-area/TZMShal4.bmp" },
+				"marketplace":    { "animation" : "peachville/town-screen/buildings/TBMSmark.def", "x" : 0, "y" : 0,           "border" : "peachville/town-screen/buildings-border/TOMSmark.bmp", "area" : "peachville/town-screen/buildings-area/TZMSmark.bmp" },
+				"resourceSilo":   { "animation" : "peachville/town-screen/buildings/TBMSsilo.def", "x" : 0, "y" : 0,      "border" : "peachville/town-screen/buildings-border/TOMSsilo.bmp", "area" : "peachville/town-screen/buildings-area/TZMSsilo.bmp" },
+				"blacksmith":     { "animation" : "peachville/town-screen/buildings/TBMSblak.def", "x" : 0, "y" : 0,           "border" : "peachville/town-screen/buildings-border/TOMSblak.bmp", "area" : "peachville/town-screen/buildings-area/TZMSblak.bmp" },
+				"lighthouse":     { "animation" : "peachville/town-screen/buildings/TBMSlite.def", "x" : 0, "y" : 0,           "border" : "peachville/town-screen/buildings-border/TOMSlite.bmp", "area" : "peachville/town-screen/buildings-area/TZMSlite.bmp" },
+				"special2":       { "animation" : "peachville/town-screen/buildings/TBMSspe2.def", "x" : 0, "y" : 0, 		 "border" : "peachville/town-screen/buildings-border/TOMSspe2.bmp", "area" : "peachville/town-screen/buildings-area/TZMSspe2.bmp" },
+				"horde1":         { "animation" : "peachville/town-screen/buildings/TBMShrd1.def", "x" : 0, "y" : 0,    "border" : "peachville/town-screen/buildings-border/TOMShrd1.bmp", "area" : "peachville/town-screen/buildings-area/TZMShrd1.bmp", "hidden" : true, "builds" : "horde1" },
+				"horde1Upgr":     { "animation" : "peachville/town-screen/buildings/TBMShrd1.def", "x" : 0, "y" : 0,  "border" : "peachville/town-screen/buildings-border/TOMShrd1.bmp", "area" : "peachville/town-screen/buildings-area/TZMShrd1.bmp", "hidden" : true, "builds" : "horde1" },
+				"ship":           { "animation" : "peachville/town-screen/buildings/TBMSship.def", "x" : 0, "y" : 0,    "border" : "peachville/town-screen/buildings-border/TOMSship.bmp", "area" : "peachville/town-screen/buildings-area/TZMSship.bmp" },
+				"special1":       { "animation" : "peachville/town-screen/buildings/TBMSspec.def", "x" : 0, "y" : 0,  "border" : "peachville/town-screen/buildings-border/TOMSspec.bmp", "area" : "peachville/town-screen/buildings-area/TZMSspec.bmp" },
+				"horde2":         { "animation" : "peachville/town-screen/buildings/TBMShrd2.def", "x" : 0, "y" : 0,    "border" : "peachville/town-screen/buildings-border/TOMShrd2.bmp", "area" : "peachville/town-screen/buildings-area/TZMShrd2.bmp", "hidden" : true, "builds" : "horde2" },
+				"horde2Upgr":     { "animation" : "peachville/town-screen/buildings/TBMShrd2.def", "x" : 0, "y" : 0,  "border" : "peachville/town-screen/buildings-border/TOMShrd2.bmp", "area" : "peachville/town-screen/buildings-area/TZMShrd2.bmp", "hidden" : true, "builds" : "horde2" },
+				"grail":          { "animation" : "peachville/town-screen/buildings/TBMSholy.def", "x" : 0, "y" : 0,   "border" : "peachville/town-screen/buildings-border/TOMSholy.bmp", "area" : "peachville/town-screen/buildings-area/TZMSholy.bmp" },
+				"dwellingLvl1":   { "animation" : "peachville/town-screen/buildings/TBMSdw1.def", "x" : 0, "y" : 0,      "border" : "peachville/town-screen/buildings-border/TOMSdw1.bmp", "area" : "peachville/town-screen/buildings-area/TZMSdw1.bmp" },
+				"dwellingLvl2":   { "animation" : "peachville/town-screen/buildings/TBMSdw2.def", "x" : 0, "y" : 0,            "border" : "peachville/town-screen/buildings-border/TOMSdw2.bmp", "area" : "peachville/town-screen/buildings-area/TZMSdw2.bmp" },
+				"dwellingLvl3":   { "animation" : "peachville/town-screen/buildings/TBMSdw3.def", "x" : 0, "y" : 0,     "border" : "peachville/town-screen/buildings-border/TOMSdw3.bmp", "area" : "peachville/town-screen/buildings-area/TZMSdw3.bmp" },
+				"dwellingLvl4":   { "animation" : "peachville/town-screen/buildings/TBMSdw4.def", "x" : 0, "y" : 0,            "border" : "peachville/town-screen/buildings-border/TOMSdw4.bmp", "area" : "peachville/town-screen/buildings-area/TZMSdw4.bmp" },
+				"dwellingLvl5":   { "animation" : "peachville/town-screen/buildings/TBMSdw5.def", "x" : 0, "y" : 0,     "border" : "peachville/town-screen/buildings-border/TOMSdw5.bmp", "area" : "peachville/town-screen/buildings-area/TZMSdw5.bmp" },
+				"dwellingLvl6":   { "animation" : "peachville/town-screen/buildings/TBMSdw6.def", "x" : 0, "y" : 0,     "border" : "peachville/town-screen/buildings-border/TOMSdw6.bmp", "area" : "peachville/town-screen/buildings-area/TZMSdw6.bmp" },
+				"dwellingLvl7":   { "animation" : "peachville/town-screen/buildings/TBMSdw7.def", "x" : 0, "y" : 0,     "border" : "peachville/town-screen/buildings-border/TOMSdw7.bmp", "area" : "peachville/town-screen/buildings-area/TZMSdw7.bmp" },
+				"dwellingUpLvl1": { "animation" : "peachville/town-screen/buildings/TBMSup1.def", "x" : 0, "y" : 0,           "border" : "peachville/town-screen/buildings-border/TOMSup1.bmp", "area" : "peachville/town-screen/buildings-area/TZMSup1.bmp" },
+				"dwellingUpLvl2": { "animation" : "peachville/town-screen/buildings/TBMSup2.def", "x" : 0, "y" : 0,            "border" : "peachville/town-screen/buildings-border/TOMSup2.bmp", "area" : "peachville/town-screen/buildings-area/TZMSup2.bmp" },
+				"dwellingUpLvl3": { "animation" : "peachville/town-screen/buildings/TBMSup3.def", "x" : 0, "y" : 0,      "border" : "peachville/town-screen/buildings-border/TOMSup3.bmp", "area" : "peachville/town-screen/buildings-area/TZMSup3.bmp" },
+				"dwellingUpLvl4": { "animation" : "peachville/town-screen/buildings/TBMSup4.def", "x" : 0, "y" : 0,            "border" : "peachville/town-screen/buildings-border/TOMSup4.bmp", "area" : "peachville/town-screen/buildings-area/TZMSup4.bmp" },
+				"dwellingUpLvl5": { "animation" : "peachville/town-screen/buildings/TBMSup5.def", "x" : 0, "y" : 0,       "border" : "peachville/town-screen/buildings-border/TOMSup5.bmp", "area" : "peachville/town-screen/buildings-area/TZMSup5.bmp" },
+				"dwellingUpLvl6": { "animation" : "peachville/town-screen/buildings/TBMSup6.def", "x" : 0, "y" : 0,      "border" : "peachville/town-screen/buildings-border/TOMSup6.bmp", "area" : "peachville/town-screen/buildings-area/TZMSup6.bmp" },
+				"dwellingUpLvl7": { "animation" : "peachville/town-screen/buildings/TBMSup7.def", "x" : 0, "y" : 0,      "border" : "peachville/town-screen/buildings-border/TOMSup7.bmp", "area" : "peachville/town-screen/buildings-area/TZMSup7.bmp" }
+			},
+
+			
+			"musicTheme" : "music/factions/fantasy-enchanted-by-keys-of-moon.mp3",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "peachville/town-screen/peachville_ts.bmp",
+			"guildWindow": "peachville/town-screen/mgbg.bmp",
+			"buildingsIcons": "peachville/town-hall.def",
+			"hallBackground": "TPTHBKDG",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" , "mageGuild5"] , [ "special1" ], [ "horde1", "horde1Upgr" ] ],
+				[  [ "shipyard", "lighthouse"] , ["special2" ], ["horde2"]],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["hornedGopher", "greaterHornedGopher"],
+				["greenDinolet", "purpleDinolet"],
+				["pBeast", "pheeBeast"],
+				["apricotess", "peachess"],
+				["arachnia", "magicArachnia"],
+				["lightningBeast", "greatLightningBeast"],
+				["hoatzin", "greatHoatzin"]
+			],
+			"horde" : [ 0, 3 ],
+			"icons" : {
+				"village" : {
+					"normal" : {"small" : "peachville/icons/hall-small1.bmp", "large" : "peachville/icons/hall-big1.bmp" },
+					"built"  : {"small" : "peachville/icons/hall-small2.bmp", "large" : "peachville/icons/hall-big2.bmp" }
+				},
+				"fort" : {
+					"normal" : {"small" : "peachville/icons/fort-small1.bmp", "large" : "peachville/icons/fort-big1.bmp" },
+					"built"  : {"small" : "peachville/icons/fort-small2.bmp", "large" : "peachville/icons/fort-big2.bmp" }
+				}
+			},
+			"mageGuild" : 5,
+			"warMachine" : "ballista",
+			"moatDamage" : 70,
+			"moatHexes" : [ 12, 27, 41, 56, 70, 84, 100, 116, 131, 147, 162 ],
+			"names" : [
+				"Peachville",
+				"Peachvilla",
+				"Peach Hills",
+				"Peach River",
+				"Peach Orchand",
+				"Peach Woods",
+				"Peach Mills",
+				"Peach Palace",
+				"Peach Falls",
+				"Peach Springs",
+				"Peach Wells",
+				"Peach Harbour",
+				"Peach Bay",
+				"Peach Shore",
+				"Peach Beach", 
+				"Peach Plaza",
+				"Peach Valley",
+				"Golden Peach",
+				"Fort Peach",
+				"Peach Mushrooms", 
+				"Hoatzinville",
+				"Kosnikovo",
+				"Magic Peach",
+				"Enchanted Peach",
+				"Peachflux",
+				"Flashing Peaches",
+				"Los Peachess",
+				"Peachlux",
+				"Peach Spires",
+				"Peach Castle",
+				"Peach Crown",
+				"Apricotville",
+				"Apricotvilla",
+				"Apricot Hills",
+				"Apricot River",
+				"Apricot Orchand",
+				"Apricot Woods",
+				"Apricot Mills",
+				"Apricot Palace",
+				"Apricot Falls",
+				"Apricot Springs",
+				"Apricot Wells",
+				"Apricot Harbour",
+				"Apricot Bay",
+				"Apricot Shore",
+				"Apricot Beach", 
+				"Apricot Plaza",
+				"Apricot Valley",
+				"Apricot Mushrooms",
+				"Magic Apricot",
+				"Enchanted Apricot",
+				"Apricotflux",
+				"Flashing Apricots",
+				"Los Apricots",
+				"Golden Apricot",
+				"Fort Apricot",
+				"Enchanted Phantasy"
+											
+			],
+			"primaryResource" : "gems",
+			//+1 random resourse when possible
+			
+			
+			"guildSpells" : {
+				"bless"          : 8,
+				"bloodlust"      : 5,
+				"cure"           : 8,
+				"curse"          : 5,
+				"dispel"         : 8,
+				"haste"          : 8,
+				"magicArrow"     : 8,
+				"protectAir"     : 8,
+				"protectFire"    : 5,
+				"shield"         : 5,
+				"slow"           : 5,
+				"stoneSkin"      : 5,
+				"summonBoat"     : 9,
+				"viewAir"        : 8,
+				"viewEarth"      : 5,
+				
+				"blind"    		 : 6,
+				"disguise"       : 9,
+				"disruptingRay"  : 10,
+				"fortune"        : 9,
+				"iceBolt"        : 9,
+				"lightningBolt"  : 9,
+				"precision"      : 9,
+				"quicksand"      : 6,
+				"removeObstacle" : 9,
+				"scuttleBoat"    : 9,
+				"visions"        : 6,
+				"weakness"       : 9,
+				
+				"airShield"      : 8,
+				"antiMagic"      : 5,
+				"earthquake"     : 5,
+				"fireball"       : 5,
+				"forceField"     : 5,
+				"forgetfulness"  : 8,
+				"frostRing"      : 9,
+				"hypnotize"      : 8,
+				"landMine"       : 5,
+				"mirth"          : 8,
+				"misfortune"     : 5,
+				"protectEarth"   : 5,
+				"protectWater"   : 8,
+				"teleport"       : 8,
+				"destroyUndead"  : 8,
+
+			
+				"chainLightning" : 11,
+				"clone"          : 11,
+				"counterstrike"  : 11,
+				"meteorShower"   : 5,
+				"prayer"         : 11,
+				"resurrection"   : 6,
+				"sorrow"         : 5,
+				"townPortal"     : 6,
+				"waterWalk"      : 11,
+				"fireShield"	 : 6,
+				"inferno" 		 : 6,
+				"frenzy"		 : 5,
+				"slayer"         : 6,
+				
+				
+				"airElemental"   : 18,
+				"dimensionDoor"  : 18,
+				"fly"            : 18,
+				"implosion"      : 10,
+				"magicMirror"    : 18,
+				"waterElemental" : 18
+				
+				
+
+				
+			},
+
+			"siege" : {
+				"shooter" : "apricotess",
+				"imagePrefix" : "peachville/siege/SGVX",
+				"gate" :
+				{
+					"arch" : { "x" : 518, "y" : 85 },
+					"gate" : { "x" : 446, "y" : 223 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 471, "y" : 80 },
+					"moat" : { "x" : 471, "y" : 80 }
+				},
+				"static" :
+				{
+					"background" : { "x" : 645, "y" : 44 },
+					"bottom" : { "x" : 645, "y" : 44 },
+					"top" : { "x" : 645, "y" : 44 }
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 679, "y" : 518 },
+						"creature" : { "x" : 440, "y" : 300 },
+						"tower" : { "x" : 679, "y" : 518, "z" : -1 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 752, "y" : 178 },
+						"creature" : { "x" : 530, "y" : 0 },
+						"tower" : { "x" : 752, "y" : 178,"z" : -1 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 627, "y" : 24 },
+						"creature" : { "x" : 390, "y" : -200 },
+						"tower" : { "x" : 627, "y" : 24, "z" : -1 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 577, "y" : 391 },
+					"bottomMid" : { "x" : 526, "y" : 316 },
+					"upper" : { "x" : 597, "y" : 57 },
+					"upperMid" : { "x" : 543, "y" : 107 }
+				}
+			}
+		}
+	}
+}

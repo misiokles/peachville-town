@@ -1,0 +1,235 @@
+{
+	"airi" :
+	{
+		"class" : "peachguard",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "peachville/heroes/airi/lb32.bmp",
+			"specialtyLarge" : "peachville/heroes/airi/lb44.bmp",
+			"large" : "peachville/heroes/airi/airi6458.bmp",
+			"small" : "peachville/heroes/airi/airi4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Airi",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Lightning and Fire Beasts get extra attack and defence growing with level",
+				"tooltip" : "Magic Beasts",
+				"name" : "Magic Beasts"
+			}
+		},
+		
+		"specialty": 
+		[
+			{
+				"growsWithLevel": true, 
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["lightningBeast", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["lightningBeast", true]
+							}
+						]
+					},{
+						"type": "PRIMARY_SKILL",
+						"subtype": 2,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["lightningBeast", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["lightningBeast", true]
+							}
+						]
+					},
+					
+					
+					
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatLightningBeast", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatLightningBeast", true]
+							}
+						]
+					},{
+						"type": "PRIMARY_SKILL",
+						"subtype": 2,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatLightningBeast", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatLightningBeast", true]
+							}
+						]
+					},
+					
+					
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["fireBeast", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["fireBeast", true]
+							}
+						]
+					},{
+						"type": "PRIMARY_SKILL",
+						"subtype": 2,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["fireBeast", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["fireBeast", true]
+							}
+						]
+					},
+					
+					
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatFireBeast", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatFireBeast", true]
+							}
+						]
+					},{
+						"type": "PRIMARY_SKILL",
+						"subtype": 2,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatFireBeast", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["greatFireBeast", true]
+							}
+						]
+					}
+					
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"arachnia" : 
+	{
+		"name" : { "singular" : "Arachnia", "plural" : "Arachnias" },
+		
+		"level" : 5,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 450 },
+		
+		"fightValue" : 800,
+		
+		"aiValue" : 800,
+		
+		"growth" : 3,
+		
+		"attack" : 12,
+		
+		"defense" : 12,
+		
+		"hitPoints" : 50,
+		
+		"speed" : 7,
+		
+		"damage" : { "min" : 12,"max" : 16},
+		"advMapAmount" : { "min" : 10,"max" : 14},
+
+		"upgrades" :
+		["magicArachnia"],
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+			"castMisery" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misery",
+				"val" : 20
+			}
+		
+		
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/arachnia.def",
+
+			"map" : "peachville/map/creatures/arachniaadv.def",
+
+			"iconSmall" : "peachville/iconssmall/arachnia32.bmp",
+
+			"iconLarge" : "peachville/iconsbig/arachnia15864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		
+"sound" : 
+		{
+			"attack": "peachville/spdrattk.wav",
+			
+			"defend": "peachville/spdrdfnd.wav",
+
+			"killed": "peachville/spdrkill.wav",
+
+			"move": "peachville/spdrmove.wav",
+
+			"wince": "peachville/spdrwnce.wav"
+		}
+	}
+}

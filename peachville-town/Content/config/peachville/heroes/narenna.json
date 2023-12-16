@@ -1,0 +1,101 @@
+{
+"narenna" :
+		{
+		"class" : "peachess",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "peachville/heroes/narenna/mbonus32.bmp",
+			"specialtyLarge" : "peachville/heroes/narenna/mbonus44.bmp",
+			"large" : "peachville/heroes/narenna/narenna6458.bmp",
+			"small" : "peachville/heroes/narenna/narenna4832.bmp"
+		},
+			"spellbook": [ "bless" ],
+		
+			"army" :
+			[
+			{ "creature" : "greaterHornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "pheeBeast", "min" : 3, "max" : 5 },
+			{ "creature" : "purpleDinolet", "min" :  5, "max" :  10 }
+			],
+			"skills" :
+			[
+			
+			
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			},
+			],
+			"texts" :
+			{
+			"name" : "Narenna",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Narenna got various magic bonuses",
+				"tooltip" : "Magic Bonuses",
+				"name" : "Magic Bonuses"
+			}
+			},
+			
+			"specialty" : 
+			{
+							
+			"bonuses" : {
+								"mana":{
+										"type" : "MANA_REGENERATION",
+										"updater" : {
+														"parameters" : [ 10 ],
+														"type" : "GROWS_WITH_LEVEL"
+													}
+				
+										},
+								"spelldmg":	{
+										"type" : "SPELL_DAMAGE",
+										"updater" : "TIMES_HERO_LEVEL",
+										"val" : 1
+											},
+								"freelearning" : {
+										"subtype" : "skill.learning",
+										"type" : "SECONDARY_SKILL_PREMY",
+										"val" : 10,
+										"valueType" : "ADDITIVE_VALUE",
+										"limiters" : null
+							
+									},
+								"freescholar" : {
+										"subtype" : "skill.scholar",
+										"type" : "SECONDARY_SKILL_PREMY",
+										"updater" : {
+														"parameters" : [ 4 ],
+														"type" : "GROWS_WITH_LEVEL"
+													}
+							
+									},
+								"extraintelligence" : {
+										"subtype" : "skill.intelligence",
+										"type" : "SECONDARY_SKILL_PREMY",
+										"val" : 10,
+										"valueType" : "ADDITIVE_VALUE",
+										"limiters" : null
+							
+									},
+									"reducespellcost" : {
+										"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+										"val" :  1
+							
+									}
+									
+			}
+			}
+		
+		
+		
+		}
+}
+		

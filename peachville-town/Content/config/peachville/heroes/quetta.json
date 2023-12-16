@@ -1,0 +1,49 @@
+{
+	"quetta" :
+	{
+		"class" : "peachguard",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "peachville/heroes/quetta/gopher32.bmp",
+			"specialtyLarge" : "peachville/heroes/quetta/gopher44.bmp",
+			"large" : "peachville/heroes/quetta/quetta6458.bmp",
+			"small" : "peachville/heroes/quetta/quetta4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "greaterHornedGopher", "min" : 20, "max" :  30 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "telestrike"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Quetta",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Gophers' extra attack and defence growing with level",
+				"tooltip" : "Gophers",
+				"name" : "Gophers"
+			}
+		},
+		
+		"specialty" : {
+			"creature" : "hornedGopher"
+		}	
+	}
+}

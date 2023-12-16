@@ -1,0 +1,108 @@
+{
+	"apricotess" : 
+	{
+		"name" : { "singular" : "Apricotess", "plural" : "Apricotesses" },
+		
+		"level" : 4,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 400 },
+		
+		"fightValue" : 500,
+		
+		"aiValue" : 500,
+		
+		"growth" : 4,
+		
+		"attack" : 12,
+		
+		"defense" : 8,
+		
+		"hitPoints" : 30,
+		
+		"speed" : 8,
+		
+		"damage" : { "min" : 8,"max" : 12},
+		"advMapAmount" : { "min" : 10,"max" : 25},
+
+		"upgrades" :
+		["peachess"],
+		
+		"shots" : 24,	
+
+		"doubleWide" : false,
+		
+		
+		"hasDoubleWeek": true,
+		
+		
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			
+			"freeShooting":
+			{
+				"type" : "FREE_SHOOTING" 					
+			},
+			"FLYING_ARMY" :
+			{
+				"type": "FLYING",
+				"subtype" : 1 
+			},
+			"castMire" : 
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.mire",
+				"val" : 20
+			}
+		},
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/apricotess.def",
+
+			"map" : "peachville/map/creatures/apricotessadv.def",
+
+			"iconSmall" : "peachville/iconssmall/apricotess32.bmp",
+
+			"iconLarge" : "peachville/iconsbig/apricotess15864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 50.00, "attack" : 2.00, "flight" : 1.00 },
+			
+			"missile" :
+			{
+				"projectile" : "peachville/battle/creatures/missile2.def",
+				"attackClimaxFrame" : 0,
+				"offset" :
+				{
+					"upperX" : 25,
+					"upperY" : -40,
+					"middleX" : 25,
+					"middleY" : -40,
+					"lowerX" : 25,
+					"lowerY" : -40
+				},
+				"frameAngles" : [ -90, -45, 0, 45, 90]
+		}
+		},
+
+		
+"sound" : 
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move":   "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		}
+	}
+}

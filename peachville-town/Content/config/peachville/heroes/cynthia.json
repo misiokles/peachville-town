@@ -1,0 +1,64 @@
+{
+"cynthia" :
+		{
+		"class" : "peachess",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "peachville/heroes/cynthia/mcure32.bmp",
+			"specialtyLarge" : "peachville/heroes/cynthia/mcure44.bmp",
+			"large" : "peachville/heroes/cynthia/cynthia6458.bmp",
+			"small" : "peachville/heroes/cynthia/cynthia4832.bmp"
+		},
+			"spellbook": [ "masterCure" ],
+		
+			"army" :
+			[
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "firstAidTent", "min" :  1, "max" :  1 },
+			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
+			],
+			"skills" :
+			[
+			
+			
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			},
+			],
+			"texts" :
+			{
+			"name" : "Cynthia",
+			"biography" : "unknown",
+			"specialty" : {
+			
+			"description" : "Cynthia knows Master Cure spell",
+				"tooltip" : "Master Cure",
+				"name" : "Master Cure"
+			}
+			},
+			"specialty" : 
+			{
+						
+									
+				"bonuses" : {	
+										"masterCure" : {
+										"subtype" : "spell.masterCure",
+										"type" : "SPECIAL_SPELL_LEV",
+										"updater" : "TIMES_HERO_LEVEL",
+										"val" : 3
+											}
+																			
+							}
+						}
+		
+		
+		
+		}
+}
+		

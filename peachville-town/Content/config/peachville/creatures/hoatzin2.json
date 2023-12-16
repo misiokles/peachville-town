@@ -1,0 +1,96 @@
+{
+	"greatHoatzin" : 
+	{
+		"name" : { "singular" : "Great Hoatzin", "plural" : "Great Hoatzins" },
+		
+		"level" : 7,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 2500, "gems" :2 },
+		
+		"fightValue" : 5000,
+		
+		"aiValue" : 6000,
+		
+		"growth" : 1,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 20,
+		
+		"defense" : 18,
+		
+		"hitPoints" : 200,
+		
+		"speed" : 14,
+		
+		"damage" : { "min" : 30,"max" : 40},
+		"advMapAmount" : { "min" : 2,"max" : 7},
+
+		"upgrades" :
+		["greatHoatzin"],
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+			  "canFly": 
+			 {
+				"type": "FLYING"
+			},
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+		"disruptingRay1" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 50,
+				"addInfo" : [1,1]
+			},
+			"disruptingRay2" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}
+		
+		
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/hoatzin222.def",
+
+			"map" : "peachville/map/creatures/h222_map.def",
+
+			"iconSmall" : "peachville/iconssmall/hoatzin22232.bmp",
+
+			"iconLarge" : "peachville/iconsbig/hoatzin25864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		"sound" :
+		{
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		}
+	}
+}

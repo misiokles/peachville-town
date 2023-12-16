@@ -1,0 +1,49 @@
+{
+	"lanei" :
+	{
+		"class" : "peachguard",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "peachville/heroes/lanei/gdino32.bmp",
+			"specialtyLarge" : "peachville/heroes/lanei/gdino44.bmp",
+			"large" : "peachville/heroes/lanei/lanei6458.bmp",
+			"small" : "peachville/heroes/lanei/lanei4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 },
+			{ "creature" : "greenDinolet", "min" : 5, "max" :  10 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Lanei",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Dinolets get extra attack and defence growing with level",
+				"tooltip" : "Dinolets",
+				"name" : "Dinolets"
+			}
+		},
+		
+		"specialty" : {
+			"creature" : "greenDinolet"
+		}	
+	}
+}

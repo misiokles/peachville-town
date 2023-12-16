@@ -1,0 +1,51 @@
+{
+	"tethys" :
+	{
+		"class" : "peachguard",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "peachville/heroes/tethys/arachnia32.bmp",
+			"specialtyLarge" : "peachville/heroes/tethys/arachnia44.bmp",
+			"large" : "peachville/heroes/tethys/tethys6458.bmp",
+			"small" : "peachville/heroes/tethys/tethys4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
+		
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Tethys",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Arachnias get extra attack and defence growing with level. Learning bonus",
+				"tooltip" : "Arachnias",
+				"name" : "Arachnias"
+			}
+		},
+		
+		"specialty" : {
+			"creature" : "arachnia",
+			
+		}	
+	}
+}

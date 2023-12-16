@@ -1,0 +1,84 @@
+{
+	"pheeBeast" : 
+	{
+		"name" : { "singular" : "Phee Beast", "plural" : "Phee Beasts" },
+		
+		"level" : 3,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 220 },
+		
+		"fightValue" : 400,
+		
+		"aiValue" : 400,
+		
+		"growth" : 7,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 8,
+		
+		"defense" : 8,
+		
+		"hitPoints" : 24,
+		
+		"speed" : 7,
+		
+		"damage" : { "min" : 4,"max" : 6},
+		"advMapAmount" : { "min" : 15,"max" : 50},
+
+
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+					
+		"joustingBonus" :
+			{
+				"type" : "JOUSTING"
+				
+			},
+				"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 40
+			}
+			
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/p2.def",
+
+			"map" : "peachville/map/creatures/p2adv.def",
+
+			"iconSmall" : "peachville/iconssmall/232.bmp",
+
+			"iconLarge" : "peachville/iconsbig/pbeast25864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		
+"sound" : 
+		{
+			"attack": "peachville/hapalops_attack.wav",
+			
+			"defend": "peachville/hapalops_defence.wav",
+
+			"killed": "peachville/hapalops_death.wav",
+
+			"move": "peachville/hapalops_move.wav",
+
+			"wince": "peachville/hapalops_wince.wav"
+		}
+	}
+}

@@ -1,0 +1,107 @@
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "Hoatzins' Trees" : {
+                "name" : "Hoatzins' Trees",
+                "creatures" : [[ "hoatzin" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/htree1_map.def",
+                        "mask" : [ "VVV", "VBB", "VBA" ]
+                    }
+                }
+            },
+			"Glittering Trees" : {
+                "name" : "Glittering Trees",
+                "creatures" : [[ "splendidHoatzin" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/htrees2.def",
+                         "mask" : [ "VVV", "VBB", "VAB" ]
+                    }
+                }
+            },
+			 "Beasts' Lake" : {
+                "name" : "Beasts' Lake",
+                "creatures" : [[ "lightningBeast" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/beastlake221.def",
+                        "mask" : [ "VVV", "VAB" ]
+                    }
+                }
+            },
+			 "Volcanic Lake" : {
+                "name" : "Volcanic Lake",
+                "creatures" : [[ "fireBeast" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/volcaniclake.def",
+                        "mask" : [ "VVV", "VAB" ]
+                    }
+                }
+            },
+			"Arachnias' Portal" : {
+                "name" : "Arachnias' Portal",
+                "creatures" : [[ "arachnia" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/arachniaportal_map.def",
+                        "mask" : [ "VV", "BA" ]
+                    }
+                }
+            },
+			"Peachess' Mushroom" : {
+                "name" : "Peachess' Mushroom",
+                "creatures" : [[ "apricotess" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/sorceressmushroom.def",
+                        "mask" : [ "VVV", "VVV", "VAV" ]
+                    }
+                }
+            },
+			
+			"Woody Hill" : {
+                "name" : "Woody Hill",
+                "creatures" : [[ "pBeast" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/pdwell.def",
+                        "mask" : [ "VV", "VA" ]
+                    }
+                }
+            },
+			"Dinolets' Site" : {
+                "name" : "Dinolets' Site",
+                "creatures" : [[ "greenDinolet" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/dinodwell.def",
+                        "mask" : [ "VVV", "VVV", "VBA" ]
+                    }
+                }
+            },
+			"Gophers' Holes" : {
+                "name" : "Gophers' Holes",
+                "creatures" : [[ "hornedGopher" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "peachville/map/dwellings/gopherdwelling.def",
+                        "mask" : [ "VV", "VA" ]
+                    }
+                }
+            }
+			
+			}
+			}
+			}

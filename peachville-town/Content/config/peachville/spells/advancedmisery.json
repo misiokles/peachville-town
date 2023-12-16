@@ -1,0 +1,80 @@
+{
+"advancedMisery" : {
+		"type": "combat", 
+		"name": "Advanced Misery",
+		"targetType": "NO_TARGET",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 0,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"necropolis": 0
+			
+		},
+		
+		"graphics":
+		{
+		
+			"iconEffect": "peachville/spells/misery_icon.bmp"
+		},
+
+		"animation":{
+			"affect":["peachville/spells/misery2.def"]
+		},
+		"sounds": {
+			"cast": "DISEASE"
+		},
+		"levels" : {
+			"base":{
+			"aiValue": 0,
+				"range" : "1",
+				"power": 0,
+				"cost" : 0,
+				"description" : "reduces attack, defence and speed",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"attack" : {
+						"val" : -4,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"val" : -4,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS"
+					},
+					"speed":
+					{
+						"type": "STACKS_SPEED",
+						"valueType" : "PERCENT_TO_ALL",
+						"val": -30
+					}
+				}
+			},
+			"none":{},
+			"basic":{},
+			"advanced":{},
+			"expert":{}
+		},
+		"flags" : {
+			"negative": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "normal"
+			}
+		}
+	}
+}	
+	

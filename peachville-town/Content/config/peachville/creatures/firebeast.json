@@ -1,0 +1,114 @@
+{
+	"fireBeast" : 
+	{
+		"name" : { "singular" : "Fire Beast", "plural" : "Fire Beasts" },
+		
+		"level" : 6,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 750 },
+		
+		"fightValue" : 1200,
+		
+		"aiValue" : 1500,
+		
+		"growth" : 2,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 14,
+		
+		"defense" : 14,
+		
+		"hitPoints" : 70,
+		
+		"speed" : 5,
+		
+		"damage" : { "min" : 14,"max" : 18},
+		"advMapAmount" : { "min" : 5,"max" : 15},
+
+		"upgrades" :
+		["greatFireBeast"],
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"slowImmune": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype":  "spell.slow",
+				"addInfo":0
+				},
+				
+			"immuneToFire" :
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+				
+			"fireShield" :
+			{
+				"type" : "FIRE_SHIELD",
+				"val" : 20
+			}, 
+			
+			"fireballStrenght" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.fireball",
+				"val" : 15
+			},
+			"fireballCast" :
+			{
+			"type" : "SPELLCASTER",
+			"subtype" : "spell.fireball",
+			"val" : 1
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 100
+			}
+		
+		
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/fb22.def",
+
+			"map" : "peachville/map/creatures/fb22adv.def",
+
+			"iconSmall" : "peachville/iconssmall/fb32.bmp",
+
+			"iconLarge" : "peachville/iconsbig/fb15864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		
+"sound" : 
+		{
+			"attack": "BGORATTK.wav",
+			
+			"defend": "peachville/hapalops_defence.wav",
+
+			"killed": "peachville/hapalops_death.wav",
+
+			"move": "peachville/hapalops_move.wav",
+
+			"wince": "peachville/hapalops_wince.wav"
+		}
+	}
+}

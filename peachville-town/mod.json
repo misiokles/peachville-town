@@ -1,0 +1,92 @@
+{
+	"name" : "Peachville Town",
+	"description" : "Second Life and Freedom Empire Town",
+	
+	"author" : "M.C.Phee",
+	"contact" : "slothlux@tlen.pl",
+	"version" : "0.9",
+	"modType" : "Town",	
+	
+    "factions" : [ "config/peachville/town.json" ],
+	
+	"creatures" :
+	[
+		"config/peachville/creatures/hoatzin1.json",
+		"config/peachville/creatures/hoatzin2.json",
+		"config/peachville/creatures/hoatzin3.json",
+		"config/peachville/creatures/lightningbeast.json",
+		"config/peachville/creatures/greatlightningbeast.json",
+		"config/peachville/creatures/firebeast.json",
+		"config/peachville/creatures/greatfirebeast.json",
+		"config/peachville/creatures/arachnia.json",
+		"config/peachville/creatures/marachnia.json",
+		"config/peachville/creatures/apricotess.json",
+		"config/peachville/creatures/peachess.json",
+		"config/peachville/creatures/pbeast.json",
+		"config/peachville/creatures/pheebeast.json",
+		"config/peachville/creatures/gdino.json",
+		"config/peachville/creatures/pdino.json",
+		"config/peachville/creatures/hgopher1.json",
+		"config/peachville/creatures/hgopher2.json"
+	],
+        
+	"changelog" :
+    {
+		"0.1" : ["Hoatzins"],
+		"0.2" : ["Beasts"],
+		"0.3" : ["Fire Beasts got Fire Shield"],
+		"0.4" : ["Arachnias"],
+		"0.5" : ["Sorceresses"],
+		"0.6" : ["PBeasts"],
+		"0.7" : ["Dinolets"],
+		"0.8" : ["Horned Gophers"],
+		"0.9" : ["Peachville"]
+    },  
+	
+	"heroClasses" :
+	[
+		"config/peachville/classes/peachguard.json",
+		"config/peachville/classes/peachess.json"
+	],
+
+	"heroes" :
+	[
+		"config/peachville/heroes/cynthia.json",
+		"config/peachville/heroes/hyperia.json",
+		"config/peachville/heroes/ravinia.json",
+		"config/peachville/heroes/dione.json",
+		"config/peachville/heroes/funky.json",
+		"config/peachville/heroes/maritta.json",
+		"config/peachville/heroes/nyaji.json",
+		"config/peachville/heroes/leland.json",
+		"config/peachville/heroes/blizbor.json",
+		"config/peachville/heroes/lanei.json",
+		"config/peachville/heroes/quetta.json",
+		"config/peachville/heroes/tethys.json",
+		"config/peachville/heroes/vedette.json",
+		"config/peachville/heroes/airi.json",
+		"config/peachville/heroes/vaughn.json",
+		"config/peachville/heroes/narenna.json"
+	],
+	 "objects":
+    [
+		"config/peachville/dwellings.json"
+    ],
+	
+	"skills" :
+	[
+	"config/peachville/skills/telestrike.json"
+	],
+	
+	"spells" :
+	[
+        "config/peachville/spells/misery.json",
+		"config/peachville/spells/advancedmisery.json",
+		"config/peachville/spells/mire.json",
+		"config/peachville/spells/largemire.json",
+		"config/peachville/spells/mastercure.json",
+		"config/peachville/spells/telestrikeability.json"
+		//as telestrike is not fully supported, please use it only within 7 hex radius ;-)
+	],
+	
+}

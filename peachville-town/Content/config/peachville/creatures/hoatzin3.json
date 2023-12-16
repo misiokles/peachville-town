@@ -1,0 +1,94 @@
+{
+	"splendidHoatzin" : 
+	{
+		"name" : { "singular" : "Splendid Hoatzin", "plural" : "Splendid Hoatzins" },
+		
+		"level" : 7,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 5000, "gems" :5 },
+		
+		"fightValue" : 14000,
+		
+		"aiValue" : 17000,
+		
+		"growth" : 1,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 30,
+		
+		"defense" : 26,
+		
+		"hitPoints" : 400,
+		
+		"speed" : 17,
+		
+		"damage" : { "min" : 50,"max" : 60},
+		"advMapAmount" : { "min" : 1,"max" : 5},
+
+		
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+			"canFly": 
+			 {
+				"type": "FLYING"
+			},
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"disruptingRay1" :
+			{
+				"type" : "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 50,
+				"addInfo" : [2,1]
+			},
+			"disruptingRay2" :
+				{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 3,
+				},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}
+		
+		
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/hoatzin223.def",
+
+			"map" : "peachville/map/creatures/h223_map.def",
+
+			"iconSmall" : "peachville/iconssmall/hoatzin22332.bmp",
+
+			"iconLarge" : "peachville/iconsbig/hoatzin35864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		"sound" :
+		{
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		}
+	}
+}

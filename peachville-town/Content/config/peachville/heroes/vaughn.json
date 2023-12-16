@@ -1,0 +1,59 @@
+{
+	"vaughn" :
+	{
+		"class" : "peachguard",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "peachville/heroes/vaughn/ballista32.bmp",
+			"specialtyLarge" : "peachville/heroes/vaughn/ballista44.bmp",
+			"large" : "peachville/heroes/vaughn/vaughn6458.bmp",
+			"small" : "peachville/heroes/vaughn/vaughn4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
+			{ "creature" : "ballista", "min" :  1, "max" :  1 },
+			{ "creature" : "pBeast", "min" :  3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Vaughn",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Artillery skill growing with level. Learning bonus.",
+				"tooltip" : "Artillery",
+				"name" : "Artillery"
+			}
+		},
+		
+		"specialty" : {
+			"creature" : "ballista",
+				"bonuses" : { 
+			"freelearning" : {
+										"subtype" : "skill.learning",
+										"type" : "SECONDARY_SKILL_PREMY",
+										"val" : 10,
+										"valueType" : "ADDITIVE_VALUE",
+										"limiters" : null
+							
+									}
+				}
+		}
+	}
+}

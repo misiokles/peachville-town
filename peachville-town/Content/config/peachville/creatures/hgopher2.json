@@ -1,0 +1,120 @@
+{
+	"greaterHornedGopher" : 
+	{
+		"name" : { "singular" : "Greater Horned Gopher", "plural" : "Greater Horned Gophers" },
+		
+		"level" : 1,
+
+		"special" : false,
+		
+		"faction" : "neutral", 
+		
+		"cost" : { "gold" : 50 },
+		
+		"fightValue" : 80,
+		
+		"aiValue" : 80,
+		
+		"growth" : 20,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 4,
+		
+		"defense" : 2,
+		
+		"hitPoints" : 3,
+		
+		"speed" : 6,
+		
+		"shots" : 1000,	
+		
+		"damage" : { "min" : 1,"max" : 2},
+		"advMapAmount" : { "min" : 50,"max" : 100},
+
+		
+
+		"doubleWide" : false,
+		
+"abilities" :
+		{
+		"Double Strike" :
+			{
+			"type" : "ADDITIONAL_ATTACK",
+			"val" :1
+			},
+				"Telestrike_feature0" :
+			{
+				"type" : "SHOOTER"
+			},
+			"Telestrike_feature1":
+			{	
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"Telestrike_feature2":
+			{	
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"Telestrike_feature3":
+			{	
+				"type" : "NO_WALL_PENALTY"
+			},
+	
+			"telestrikeability" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.telestrikeability"
+			}
+			
+		
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "peachville/battle/creatures/gopher2.def",
+
+			"map" : "peachville/map/creatures/gopher2adv.def",
+
+			"iconSmall" : "peachville/iconssmall/gopher432.bmp",
+
+			"iconLarge" : "peachville/iconsbig/gopher25864.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 },
+			
+		"missile" :
+			{
+				"projectile" : "peachville/battle/creatures/psloth.def",
+				"attackClimaxFrame" : 0,
+				"offset" :
+				{
+					"upperX" : 25,
+					"upperY" : -40,
+					"middleX" : 25,
+					"middleY" : -40,
+					"lowerX" : 25,
+					"lowerY" : -40
+				},
+				"frameAngles" : [ -90, -45, 0, 45, 90]
+		}
+		
+		},
+
+		
+"sound" : 
+		{
+			"attack": "peachville/attack02.wav",
+			
+			"defend": "peachville/gopher_defence003.wav",
+
+			"killed": "peachville/death003.wav",
+
+			"move": "peachville/gopher_move3.wav"
+
+	
+		}
+	}
+}
