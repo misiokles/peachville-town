@@ -4,11 +4,14 @@
 	
 	"author" : "M.C.Phee",
 	"contact" : "slothlux@tlen.pl",
-	"version" : "0.9",
+	"version" : "0.9.1",
 	"modType" : "Town",	
 	
     "factions" : [ "config/peachville/town.json" ],
-	
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},	
 	"creatures" :
 	[
 		"config/peachville/creatures/hoatzin1.json",
@@ -40,7 +43,8 @@
 		"0.6" : ["PBeasts"],
 		"0.7" : ["Dinolets"],
 		"0.8" : ["Horned Gophers"],
-		"0.9" : ["Peachville"]
+		"0.9" : ["Peachville"],
+		"0.9.1" : ["Update to vcmi-1.4 format"]
     },  
 	
 	"heroClasses" :
@@ -86,7 +90,5 @@
 		"config/peachville/spells/largemire.json",
 		"config/peachville/spells/mastercure.json",
 		"config/peachville/spells/telestrikeability.json"
-		//as telestrike is not fully supported, please use it only within 7 hex radius ;-)
-	],
-	
+	]
 }

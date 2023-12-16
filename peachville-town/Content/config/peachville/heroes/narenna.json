@@ -61,28 +61,26 @@
 										"val" : 1
 											},
 								"freelearning" : {
-										"subtype" : "skill.learning",
-										"type" : "SECONDARY_SKILL_PREMY",
-										"val" : 10,
-										"valueType" : "ADDITIVE_VALUE",
-										"limiters" : null
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 100,
+					"updater" : "TIMES_HERO_LEVEL",
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 							
 									},
 								"freescholar" : {
-										"subtype" : "skill.scholar",
-										"type" : "SECONDARY_SKILL_PREMY",
-										"updater" : {
-														"parameters" : [ 4 ],
-														"type" : "GROWS_WITH_LEVEL"
-													}
+										"targetSourceType" : "SECONDARY_SKILL",
+										"type" : "LEARN_MEETING_SPELL_LIMIT",
+										"val" : 1,
+										"valueType" : "ADDITIVE_VALUE"
 							
 									},
 								"extraintelligence" : {
-										"subtype" : "skill.intelligence",
-										"type" : "SECONDARY_SKILL_PREMY",
-										"val" : 10,
-										"valueType" : "ADDITIVE_VALUE",
-										"limiters" : null
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_PER_KNOWLEDGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 10,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 							
 									},
 									"reducespellcost" : {

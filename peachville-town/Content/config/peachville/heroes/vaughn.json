@@ -46,11 +46,11 @@
 			"creature" : "ballista",
 				"bonuses" : { 
 			"freelearning" : {
-										"subtype" : "skill.learning",
-										"type" : "SECONDARY_SKILL_PREMY",
-										"val" : 10,
-										"valueType" : "ADDITIVE_VALUE",
-										"limiters" : null
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 100,
+					"updater" : "TIMES_HERO_LEVEL",
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 							
 									}
 				}

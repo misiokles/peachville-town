@@ -47,20 +47,20 @@
 		
 		"specialty" : {
 			"bonuses" : {
-				"logistics" : {
-					"subtype" : "skill.navigation",
-					"type" : "SECONDARY_SKILL_PREMY",
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
-					
+					"valueType" : "PERCENT_TO_TARGET_TYPE"	
 				},
 				"freelearning" : {
-										"subtype" : "skill.learning",
-										"type" : "SECONDARY_SKILL_PREMY",
-										"val" : 20,
-										"valueType" : "ADDITIVE_VALUE",
-										"limiters" : null
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 100,
+					"updater" : "TIMES_HERO_LEVEL",
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 							
 									}
 			}

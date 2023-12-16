@@ -3,6 +3,7 @@
 	{
 		"nativeTerrain": "grass",
 		"alignment" : "good",
+		"boat" : "boatCastle",
 		"creatureBackground" :
 		{
 			"120px" : "peachville/creaturebg120.bmp",
@@ -222,7 +223,7 @@
 					"id" : 9,
 					"upgrades" : "citadel",
 					"bonuses":[
-					{ "type": "CREATURE_GROWTH", "val": 50, "valueType":"PERCENT_TO_BASE", "subtype":6, "propagator": "VISITED_TOWN_AND_VISITOR" }]
+					{ "type": "CREATURE_GROWTH", "val": 50, "valueType":"PERCENT_TO_BASE", "subtype": "creatureLevel6", "propagator": "VISITED_TOWN_AND_VISITOR" }]
 				},
 				"villageHall" :
 				{
@@ -380,13 +381,13 @@
 				{
 					"description" : "+1 spell power for visiting hero",
 					"name" : "Magic Peach Orchand",
-				//	"type" : "spellpowerVisitingBonus",
+					"type" : "spellPowerVisitingBonus",
 					"cost" : 
 					{
 					"wood": 5,
 					"gold" : 1000
 					},
-					"id" : 23
+//					"id" : 23
 				},
 				
 				"special2": {
@@ -397,10 +398,10 @@
 				"gold": 1000
 				},
 				"requires" : ["special1"],
-					"id": 21
-				//	"bonuses": [ 
-				//	{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 2}
-				//	]
+//					"id": 21
+					"bonuses": [ 
+					{ "type": "PRIMARY_SKILL", "subtype": "spellpower", "val": 2}
+					]
 				},	
 				
 				
@@ -408,12 +409,12 @@
 				{
 					"description" : "The Magic Whale increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases power and knowledge skills by 6 during siege.",
 					"name" : "The Magic Whale",
-					"id" : 26,
-					"mode" : "grail"
-				//	"bonuses": [ 
-				//	{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 6},
-				//	{ "type": "PRIMARY_SKILL", "subtype": "primSkill.knowledge", "val": 6}
-				//	]
+//					"id" : 26,
+					"mode" : "grail",
+					"bonuses": [ 
+					{ "type": "PRIMARY_SKILL", "subtype": "spellpower", "val": 6},
+					{ "type": "PRIMARY_SKILL", "subtype": "knowledge", "val": 6}
+					]
 				},
 				"dwellingLvl1" :
 				{
@@ -701,8 +702,7 @@
 			},
 			"mageGuild" : 5,
 			"warMachine" : "ballista",
-			"moatDamage" : 70,
-			"moatHexes" : [ 12, 27, 41, 56, 70, 84, 100, 116, 131, 147, 162 ],
+			"moatAbility" : "castleMoat",
 			"names" : [
 				"Peachville",
 				"Peachvilla",
@@ -843,6 +843,8 @@
 
 			"siege" : {
 				"shooter" : "apricotess",
+				"towerIconSmall" : "peachville/icons/arrowtowersmall",
+				"towerIconLarge" : "peachville/icons/arrowtowerslarge",
 				"imagePrefix" : "peachville/siege/SGVX",
 				"gate" :
 				{
@@ -866,19 +868,19 @@
 					{
 						"battlement" : { "x" : 679, "y" : 518 },
 						"creature" : { "x" : 440, "y" : 300 },
-						"tower" : { "x" : 679, "y" : 518, "z" : -1 }
+						"tower" : { "x" : 679, "y" : 518 }
 					},
 					"keep" :
 					{
 						"battlement" : { "x" : 752, "y" : 178 },
 						"creature" : { "x" : 530, "y" : 0 },
-						"tower" : { "x" : 752, "y" : 178,"z" : -1 }
+						"tower" : { "x" : 752, "y" : 178 }
 					},
 					"top" :
 					{
 						"battlement" : { "x" : 627, "y" : 24 },
 						"creature" : { "x" : 390, "y" : -200 },
-						"tower" : { "x" : 627, "y" : 24, "z" : -1 }
+						"tower" : { "x" : 627, "y" : 24 }
 					}
 				},
 				"walls" :

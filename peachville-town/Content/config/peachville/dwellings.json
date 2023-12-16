@@ -1,7 +1,7 @@
 {
     "core:creatureGeneratorCommon" : {
         "types" : {
-            "Hoatzins' Trees" : {
+            "hoatzinsTrees" : {
                 "name" : "Hoatzins' Trees",
                 "creatures" : [[ "hoatzin" ]],
 
@@ -12,7 +12,7 @@
                     }
                 }
             },
-			"Glittering Trees" : {
+			"glitteringTrees" : {
                 "name" : "Glittering Trees",
                 "creatures" : [[ "splendidHoatzin" ]],
 
@@ -23,7 +23,7 @@
                     }
                 }
             },
-			 "Beasts' Lake" : {
+			 "beastsLake" : {
                 "name" : "Beasts' Lake",
                 "creatures" : [[ "lightningBeast" ]],
 
@@ -34,7 +34,7 @@
                     }
                 }
             },
-			 "Volcanic Lake" : {
+			 "volcanicLake" : {
                 "name" : "Volcanic Lake",
                 "creatures" : [[ "fireBeast" ]],
 
@@ -45,7 +45,7 @@
                     }
                 }
             },
-			"Arachnias' Portal" : {
+			"arachniasPortal" : {
                 "name" : "Arachnias' Portal",
                 "creatures" : [[ "arachnia" ]],
 
@@ -56,7 +56,7 @@
                     }
                 }
             },
-			"Peachess' Mushroom" : {
+			"peachessMushroom" : {
                 "name" : "Peachess' Mushroom",
                 "creatures" : [[ "apricotess" ]],
 
@@ -68,7 +68,7 @@
                 }
             },
 			
-			"Woody Hill" : {
+			"woodyHill" : {
                 "name" : "Woody Hill",
                 "creatures" : [[ "pBeast" ]],
 
@@ -79,7 +79,7 @@
                     }
                 }
             },
-			"Dinolets' Site" : {
+			"dinoletsSite" : {
                 "name" : "Dinolets' Site",
                 "creatures" : [[ "greenDinolet" ]],
 
@@ -90,7 +90,7 @@
                     }
                 }
             },
-			"Gophers' Holes" : {
+			"gophersHoles" : {
                 "name" : "Gophers' Holes",
                 "creatures" : [[ "hornedGopher" ]],
 
@@ -100,8 +100,7 @@
                         "mask" : [ "VV", "VA" ]
                     }
                 }
-            }
-			
-			}
-			}
-			}
+            }	
+		}
+	}
+}

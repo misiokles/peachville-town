@@ -1,7 +1,10 @@
 {
 "telestrike" : {
 		"name" : "Telestrike",
-		"gainChance" : 0,
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
 		"base" : {
 			"effects" : {
 				"teleattack" : {

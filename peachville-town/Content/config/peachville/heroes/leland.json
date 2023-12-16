@@ -48,21 +48,20 @@
 		"specialty" : {
 			"bonuses" : {
 				"estates" : {
-					"subtype" : "skill.estates",
-					"type" : "SECONDARY_SKILL_PREMY",
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
-					
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"	
 				},
-				"freelearning" : {
-										"subtype" : "skill.learning",
-										"type" : "SECONDARY_SKILL_PREMY",
-										"val" : 20,
-										"valueType" : "ADDITIVE_VALUE",
-										"limiters" : null
-							
-									}
+				"learning" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 100,
+					"updater" : "TIMES_HERO_LEVEL",
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
 			}
 		}
 	}
