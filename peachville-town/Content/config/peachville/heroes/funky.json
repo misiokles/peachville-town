@@ -1,27 +1,35 @@
 {
-"funky" :
-		{
+	"funky" : {
 		"class" : "peachess",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/funky/amagic32.bmp",
 			"specialtyLarge" : "peachville/heroes/funky/amagic44.bmp",
 			"large" : "peachville/heroes/funky/funky6458.bmp",
 			"small" : "peachville/heroes/funky/funky4832.bmp"
 		},
-			"spellbook": [ "counterstrike" ],
-		
-			"army" :
-			[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "pBeast", "min" : 3, "max" : 5 },
-			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
-			],
-			"skills" :
-			[
-			
-			
+		"spellbook" : [
+			"counterstrike"
+		],
+
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "pBeast",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "greenDinolet",
+				"min" : 5,
+				"max" : 10
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -29,26 +37,20 @@
 			{
 				"level" : "basic",
 				"skill" : "airMagic"
-			},
-			],
-			"texts" :
-			{
+			}
+		],
+		"texts" : {
 			"name" : "Funky",
 			"biography" : "unknown",
-			"specialty" : { 
-			"description" : "Funky specializes in Air Magic and knows Counterstrike spell",
+			"specialty" : {
+				"description" : "Funky specializes in Air Magic and knows Counterstrike spell",
 				"tooltip" : "Air Magic",
 				"name" : "Air Magic"
 			}
-			},
-			
-			"specialty" : { 
-			
-			"bonuses" : {  } } 
-		
-		
-		
-		
+		},
+
+		"specialty" : {
+			"bonuses" : {}
 		}
+	}
 }
-		

@@ -1,26 +1,33 @@
 {
-	"blizbor" :
-	{
+	"blizbor" : {
 		"class" : "peachguard",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/blizbor/pbeast32.bmp",
 			"specialtyLarge" : "peachville/heroes/blizbor/pbeast44.bmp",
 			"large" : "peachville/heroes/blizbor/blizbor6458.bmp",
 			"small" : "peachville/heroes/blizbor/blizbor4832.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "pBeast", "min" :  3, "max" :  5 },
-			{ "creature" : "pBeast", "min" : 3, "max" :  5 }
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "pBeast",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pBeast",
+				"min" : 3,
+				"max" : 5
+			}
 		],
 
-		"skills" :
-		[
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -28,22 +35,20 @@
 			{
 				"level" : "basic",
 				"skill" : "navigation"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Blizbor",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "P Beasts and Phee Beasts get extra attack and defence growing with level",
 				"tooltip" : "P Beasts",
 				"name" : "P Beasts"
 			}
 		},
-		
+
 		"specialty" : {
 			"creature" : "pBeast"
-		}	
+		}
 	}
 }

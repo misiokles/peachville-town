@@ -1,29 +1,33 @@
 {
-	"leland" :
-	{
+	"leland" : {
 		"class" : "peachguard",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/leland/estates32.bmp",
 			"specialtyLarge" : "peachville/heroes/leland/estates44.bmp",
 			"large" : "peachville/heroes/leland/leland6458.bmp",
 			"small" : "peachville/heroes/leland/leland4832.bmp"
 		},
 
-
-			"army" :
-		[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "greenDinolet",
+				"min" : 5,
+				"max" : 10
+			}
 		],
-		
 
-		"skills" :
-		[
-			
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
@@ -31,20 +35,18 @@
 			{
 				"level" : "basic",
 				"skill" : "estates"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Leland",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Estates skill grows with level. Learning bonus",
 				"tooltip" : "Estates",
 				"name" : "Estates"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"estates" : {
@@ -53,7 +55,7 @@
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL"	
+					"targetSourceType" : "SECONDARY_SKILL"
 				},
 				"learning" : {
 					"targetSourceType" : "SECONDARY_SKILL",

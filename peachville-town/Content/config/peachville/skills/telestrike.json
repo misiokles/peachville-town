@@ -1,5 +1,5 @@
 {
-"telestrike" : {
+	"telestrike" : {
 		"name" : "Telestrike",
 		"gainChance" : {
 			"might" : 0,
@@ -8,12 +8,10 @@
 		"base" : {
 			"effects" : {
 				"teleattack" : {
-				"type": "SPECIFIC_SPELL_DAMAGE",
-				"subtype": "spell.telestrikeability",
-				"val": 0	
-					}
-				
-				
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"subtype" : "spell.telestrikeability",
+					"val" : 0
+				}
 			}
 		},
 		"basic" : {
@@ -25,12 +23,9 @@
 			"description" : "{Basic telestrike}\n\n +10% telestrike damage",
 			"effects" : {
 				"teleattack" : {
-				"val": 10	
-					}
-				
-				
+					"val" : 10
+				}
 			}
-			
 		},
 		"advanced" : {
 			"images" : {
@@ -41,13 +36,11 @@
 			"description" : "{Advanced telestrike}\n\n +20% telestrike damage",
 			"effects" : {
 				"teleattack" : {
-				"val": 20
-					}
-				
-				
+					"val" : 20
+				}
 			}
 		},
-		
+
 		"expert" : {
 			"images" : {
 				"small" : "peachville/skills/telestrikesmall3.bmp",
@@ -57,13 +50,9 @@
 			"description" : "{Expert telestrike}\n\n +30% telestrike damage",
 			"effects" : {
 				"teleattack" : {
-				"val": 30	
-					}
-				
-				
+					"val" : 30
+				}
 			}
 		}
-		
-		
 	}
 }

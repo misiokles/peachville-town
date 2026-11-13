@@ -1,27 +1,35 @@
 {
-"dione" :
-		{
+	"dione" : {
 		"class" : "peachess",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/dione/mysticism32.bmp",
 			"specialtyLarge" : "peachville/heroes/dione/mysticism44.bmp",
 			"large" : "peachville/heroes/dione/dione6458.bmp",
 			"small" : "peachville/heroes/dione/dione4832.bmp"
 		},
-			"spellbook": [ "magicArrow" ],
-		
-			"army" :
-			[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "pBeast", "min" : 3, "max" : 5 },
-			{ "creature" : "purpleDinolet", "min" :  5, "max" :  10 }
-			],
-			"skills" :
-			[
-			
-			
+		"spellbook" : [
+			"magicArrow"
+		],
+
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "pBeast",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "purpleDinolet",
+				"min" : 5,
+				"max" : 10
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -29,25 +37,19 @@
 			{
 				"level" : "basic",
 				"skill" : "mysticism"
-			},
-			],
-			"texts" :
-			{
+			}
+		],
+		"texts" : {
 			"name" : "Dione",
 			"biography" : "unknown",
-			"specialty": 
-			{
-					
+			"specialty" : {
 				"description" : "Dione regenarates more mana",
 				"tooltip" : "Mysticism",
 				"name" : "Mysticism"
 			}
-			},
-			
-			"specialty": 
-		{
-					
-				
+		},
+
+		"specialty" : {
 			"bonuses" : {
 				"mysticism" : {
 					"targetSourceType" : "SECONDARY_SKILL",
@@ -58,9 +60,5 @@
 				}
 			}
 		}
-		
-		
-		
-		}
+	}
 }
-		

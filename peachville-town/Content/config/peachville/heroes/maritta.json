@@ -1,27 +1,36 @@
 {
-"maritta" :
-		{
+	"maritta" : {
 		"class" : "peachess",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/maritta/lightningBolt32.bmp",
 			"specialtyLarge" : "peachville/heroes/maritta/lightningBolt44.bmp",
 			"large" : "peachville/heroes/maritta/maritta6458.bmp",
 			"small" : "peachville/heroes/maritta/maritta4832.bmp"
 		},
-			"spellbook": [ "lightningBolt", "chainLightning" ],
-		
-			"army" :
-			[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "pBeast", "min" : 3, "max" : 5 },
-			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
-			],
-			"skills" :
-			[
-			
-			
+		"spellbook" : [
+			"lightningBolt",
+			"chainLightning"
+		],
+
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "pBeast",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "greenDinolet",
+				"min" : 5,
+				"max" : 10
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -29,32 +38,27 @@
 			{
 				"level" : "basic",
 				"skill" : "sorcery"
-			},
-			],
-			"texts" :
-			{
+			}
+		],
+		"texts" : {
 			"name" : "Maritta",
 			"biography" : "unknown",
-			"specialty": 
-			{
-					
+			"specialty" : {
 				"description" : "Maritta's Lightnings do more damage",
 				"tooltip" : "Lightnings",
 				"name" : "Lightnings"
 			}
-			},
-			
-			"specialty":
-		{
+		},
+
+		"specialty" : {
 			"bonuses" : {
-				
 				"lightningbolt" : {
 					"subtype" : "spell.lightningBolt",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				},
-				
+
 				"chainlightning" : {
 					"subtype" : "spell.chainLightning",
 					"type" : "SPECIAL_SPELL_LEV",
@@ -63,9 +67,5 @@
 				}
 			}
 		}
-		
-		
-		
-		}
+	}
 }
-		

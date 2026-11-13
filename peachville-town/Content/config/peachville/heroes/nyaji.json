@@ -1,27 +1,35 @@
 {
-"nyaji" :
-		{
+	"nyaji" : {
 		"class" : "peachess",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/nyaji/wmagic32.bmp",
 			"specialtyLarge" : "peachville/heroes/nyaji/wmagic44.bmp",
 			"large" : "peachville/heroes/nyaji/nyaji6458.bmp",
 			"small" : "peachville/heroes/nyaji/nyaji4832.bmp"
 		},
-			"spellbook": [ "teleport" ],
-		
-			"army" :
-			[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "pBeast", "min" : 3, "max" : 5 },
-			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
-			],
-			"skills" :
-			[
-			
-			
+		"spellbook" : [
+			"teleport"
+		],
+
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "pBeast",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "greenDinolet",
+				"min" : 5,
+				"max" : 10
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -29,28 +37,21 @@
 			{
 				"level" : "basic",
 				"skill" : "waterMagic"
-			},
-			],
-			"texts" :
-			{
+			}
+		],
+		"texts" : {
 			"name" : "Nyaji",
 			"biography" : "unknown",
-			"specialty" : { 
-			"description" : "Nyaji specializes in Water Magic and knows Teleport spell",
+			"specialty" : {
+				"description" : "Nyaji specializes in Water Magic and knows Teleport spell",
 				"tooltip" : "Water Magic",
 				"name" : "Water Magic"
 			}
-			},
-			
-			
-			"specialty" : { 
-			
-			"bonuses" : {  } } 
-			//Water Magic
-			
-		
-		
-		
+		},
+
+		"specialty" : {
+			"bonuses" : {}
 		}
+		//Water Magic
+	}
 }
-		

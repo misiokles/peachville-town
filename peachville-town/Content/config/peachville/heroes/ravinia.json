@@ -1,27 +1,35 @@
 {
-"ravinia" :
-		{
+	"ravinia" : {
 		"class" : "peachess",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/ravinia/apricotess32.bmp",
 			"specialtyLarge" : "peachville/heroes/ravinia/apricotess44.bmp",
 			"large" : "peachville/heroes/ravinia/ravinia6458.bmp",
 			"small" : "peachville/heroes/ravinia/ravinia4832.bmp"
 		},
-			"spellbook": [ "dispel" ],
-		
-			"army" :
-			[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "apricotess", "min" : 3, "max" : 5 },
-			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
-			],
-			"skills" :
-			[
-			
-			
+		"spellbook" : [
+			"dispel"
+		],
+
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "apricotess",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "greenDinolet",
+				"min" : 5,
+				"max" : 10
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -34,25 +42,19 @@
 				"level" : "basic",
 				"skill" : "learning"
 			}
-			],
-			"texts" :
-			{
+		],
+		"texts" : {
 			"name" : "Ravinia",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Apricotess/Peachess",
 				"tooltip" : "Apricotess",
 				"name" : "Apricotess"
 			}
-			},
-		
+		},
+
 		"specialty" : {
 			"creature" : "apricotess"
-		}	
-		
-		
-		
 		}
+	}
 }
-		

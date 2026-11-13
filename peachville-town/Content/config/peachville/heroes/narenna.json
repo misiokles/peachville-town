@@ -1,27 +1,35 @@
 {
-"narenna" :
-		{
+	"narenna" : {
 		"class" : "peachess",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/narenna/mbonus32.bmp",
 			"specialtyLarge" : "peachville/heroes/narenna/mbonus44.bmp",
 			"large" : "peachville/heroes/narenna/narenna6458.bmp",
 			"small" : "peachville/heroes/narenna/narenna4832.bmp"
 		},
-			"spellbook": [ "bless" ],
-		
-			"army" :
-			[
-			{ "creature" : "greaterHornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "pheeBeast", "min" : 3, "max" : 5 },
-			{ "creature" : "purpleDinolet", "min" :  5, "max" :  10 }
-			],
-			"skills" :
-			[
-			
-			
+		"spellbook" : [
+			"bless"
+		],
+
+		"army" : [
+			{
+				"creature" : "greaterHornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "pheeBeast",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "purpleDinolet",
+				"min" : 5,
+				"max" : 10
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -29,71 +37,59 @@
 			{
 				"level" : "basic",
 				"skill" : "scholar"
-			},
-			],
-			"texts" :
-			{
+			}
+		],
+		"texts" : {
 			"name" : "Narenna",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Narenna got various magic bonuses",
 				"tooltip" : "Magic Bonuses",
 				"name" : "Magic Bonuses"
 			}
-			},
-			
-			"specialty" : 
-			{
-							
+		},
+
+		"specialty" : {
 			"bonuses" : {
-								"mana":{
-										"type" : "MANA_REGENERATION",
-										"updater" : {
-														"parameters" : [ 10 ],
-														"type" : "GROWS_WITH_LEVEL"
-													}
-				
-										},
-								"spelldmg":	{
-										"type" : "SPELL_DAMAGE",
-										"updater" : "TIMES_HERO_LEVEL",
-										"val" : 1
-											},
-								"freelearning" : {
+				"mana" : {
+					"type" : "MANA_REGENERATION",
+					"updater" : {
+						"parameters" : [
+							10
+						],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"spelldmg" : {
+					"type" : "SPELL_DAMAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 1
+				},
+				"freelearning" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
 					"val" : 100,
 					"updater" : "TIMES_HERO_LEVEL",
 					"valueType" : "PERCENT_TO_TARGET_TYPE"
-							
-									},
-								"freescholar" : {
-										"targetSourceType" : "SECONDARY_SKILL",
-										"type" : "LEARN_MEETING_SPELL_LIMIT",
-										"val" : 1,
-										"valueType" : "ADDITIVE_VALUE"
-							
-									},
-								"extraintelligence" : {
+				},
+				"freescholar" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "LEARN_MEETING_SPELL_LIMIT",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"extraintelligence" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MANA_PER_KNOWLEDGE",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 10,
 					"valueType" : "PERCENT_TO_TARGET_TYPE"
-							
-									},
-									"reducespellcost" : {
-										"type" : "CHANGES_SPELL_COST_FOR_ALLY",
-										"val" :  1
-							
-									}
-									
+				},
+				"reducespellcost" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 1
+				}
 			}
-			}
-		
-		
-		
 		}
+	}
 }
-		

@@ -1,77 +1,83 @@
 {
-	"hoatzin" : 
-	{
-		"name" : { "singular" : "Hoatzin", "plural" : "Hoatzins" },
-		
+	"hoatzin" : {
+		"name" : {
+			"singular" : "Hoatzin",
+			"plural" : "Hoatzins"
+		},
+
 		"level" : 7,
 
 		"special" : false,
-		
-		"faction" : "neutral", 
-		
-		"cost" : { "gold" : 2000, "gems" :1 },
-		
-		"fightValue" : 4000,
-		
-		"aiValue" : 5000,
-		
-		"growth" : 1,
-		
-//		"hordeGrowth" : 1,
-	
-		"attack" : 18,
-		
-		"defense" : 16,
-		
-		"hitPoints" : 150,
-		
-		"speed" : 11,
-		
-		"damage" : { "min" : 30,"max" : 40},
-		"advMapAmount" : { "min" : 2,"max" : 7},
 
-		"upgrades" :
-		["greatHoatzin"],
+		"faction" : "neutral",
+
+		"cost" : {
+			"gold" : 2000,
+			"gems" : 1
+		},
+
+		"fightValue" : 4000,
+
+		"aiValue" : 5000,
+
+		"growth" : 1,
+
+		//		"hordeGrowth" : 1,
+
+		"attack" : 18,
+
+		"defense" : 16,
+
+		"hitPoints" : 150,
+
+		"speed" : 11,
+
+		"damage" : {
+			"min" : 30,
+			"max" : 40
+		},
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 7
+		},
+
+		"upgrades" : [
+			"greatHoatzin"
+		],
 
 		"doubleWide" : true,
-		
-"abilities" :
-		{
-			 "canFly": 
-			 {
-				"type": "FLYING"
+
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
 			},
-			"extraRetaliation" :
-			{
+			"extraRetaliation" : {
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 1
 			},
-			"disruptingRay1" :
-			{
+			"disruptingRay1" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "spell.disruptingRay",
 				"val" : 50,
-				"addInfo" : [0,1]
+				"addInfo" : [
+					0,
+					1
+				]
 			},
-			"disruptingRay2" :
-			{
-			"type" : "SPELLCASTER",
-			"subtype" : "spell.disruptingRay",
-			"val" : 1
+			"disruptingRay2" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 1
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 3
 			}
-		
-		
 		},
-		
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		{
+
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "peachville/battle/creatures/hoatzin221.def",
 
 			"map" : "peachville/map/creatures/h221_map.def",
@@ -82,16 +88,19 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00 }
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 20.0,
+				"attack" : 2.0
+			}
 		},
 
-		"sound" :
-		{
-			"attack": "ROCCATTK.wav",
-			"defend": "ROCCDFND.wav",
-			"killed": "ROCCKILL.wav",
-			"move": "ROCCMOVE.wav",
-			"wince": "ROCCWNCE.wav"
+		"sound" : {
+			"attack" : "ROCCATTK.wav",
+			"defend" : "ROCCDFND.wav",
+			"killed" : "ROCCKILL.wav",
+			"move" : "ROCCMOVE.wav",
+			"wince" : "ROCCWNCE.wav"
 		}
 	}
 }

@@ -1,26 +1,33 @@
 {
-	"airi" :
-	{
+	"airi" : {
 		"class" : "peachguard",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/airi/lb32.bmp",
 			"specialtyLarge" : "peachville/heroes/airi/lb44.bmp",
 			"large" : "peachville/heroes/airi/airi6458.bmp",
 			"small" : "peachville/heroes/airi/airi4832.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "greenDinolet",
+				"min" : 5,
+				"max" : 10
+			}
 		],
 
-		"skills" :
-		[
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "resistance"
@@ -28,22 +35,20 @@
 			{
 				"level" : "basic",
 				"skill" : "diplomacy"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Airi",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Lightning and Fire Beasts get extra attack and defence growing with level",
 				"tooltip" : "Magic Beasts",
 				"name" : "Magic Beasts"
 			}
 		},
-		
+
 		"specialty" : {
 			"creature" : "lightningBeast"
-		}	
+		}
 	}
 }

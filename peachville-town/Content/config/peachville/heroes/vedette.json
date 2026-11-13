@@ -1,29 +1,33 @@
 {
-	"vedette" :
-	{
+	"vedette" : {
 		"class" : "peachguard",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "peachville/heroes/vedette/nav32.bmp",
 			"specialtyLarge" : "peachville/heroes/vedette/nav44.bmp",
 			"large" : "peachville/heroes/vedette/vedette6458.bmp",
 			"small" : "peachville/heroes/vedette/vedette4832.bmp"
 		},
 
-		
-			"army" :
-		[
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "hornedGopher", "min" : 20, "max" : 30 },
-			{ "creature" : "greenDinolet", "min" :  5, "max" :  10 }
+		"army" : [
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "hornedGopher",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "greenDinolet",
+				"min" : 5,
+				"max" : 10
+			}
 		],
 
-
-		"skills" :
-		[
-			
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "navigation"
@@ -31,20 +35,18 @@
 			{
 				"level" : "basic",
 				"skill" : "learning"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Vedette",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Navigation skill growing with level. Learning bonus",
 				"tooltip" : " Navigation",
 				"name" : "Navigation"
 			}
 		},
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"navigation" : {
@@ -53,7 +55,7 @@
 					"type" : "MOVEMENT",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"	
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 				},
 				"freelearning" : {
 					"targetSourceType" : "SECONDARY_SKILL",
@@ -61,8 +63,7 @@
 					"val" : 100,
 					"updater" : "TIMES_HERO_LEVEL",
 					"valueType" : "PERCENT_TO_TARGET_TYPE"
-							
-									}
+				}
 			}
 		}
 	}

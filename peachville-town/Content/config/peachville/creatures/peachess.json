@@ -1,68 +1,69 @@
 {
-	"peachess" : 
-	{
-		"name" : { "singular" : "Peachess", "plural" : "Peachesses" },
-		
+	"peachess" : {
+		"name" : {
+			"singular" : "Peachess",
+			"plural" : "Peachesses"
+		},
+
 		"level" : 4,
 
 		"special" : false,
-		
-		"faction" : "neutral", 
-		
-		"cost" : { "gold" : 500 },
-		
-		"fightValue" : 750,
-		
-		"aiValue" : 750,
-		
-		"growth" : 4,
-		
-		"attack" : 14,
-		
-		"defense" : 10,
-		
-		"hitPoints" : 30,
-		
-		"speed" : 9,
-		
-		"damage" : { "min" : 8,"max" : 12},
-		"advMapAmount" : { "min" : 10,"max" : 25},
 
-		
+		"faction" : "neutral",
+
+		"cost" : {
+			"gold" : 500
+		},
+
+		"fightValue" : 750,
+
+		"aiValue" : 750,
+
+		"growth" : 4,
+
+		"attack" : 14,
+
+		"defense" : 10,
+
+		"hitPoints" : 30,
+
+		"speed" : 9,
+
+		"damage" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 25
+		},
+
 		"doubleWide" : false,
-		
-		"shots" : 36,	
-		
-		
-		"hasDoubleWeek": true,
-		
-		
-		"abilities" :
-		{
-			"canShoot" :
-			{
+
+		"shots" : 36,
+
+		"hasDoubleWeek" : true,
+
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			
-			"freeShooting":
-			{
-				"type" : "FREE_SHOOTING" 					
+
+			"freeShooting" : {
+				"type" : "FREE_SHOOTING"
 			},
-			"FLYING_ARMY" :
-			{
-				"type": "FLYING",
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"castLargeMire" : 
-			{
+			"castLargeMire" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"subtype" : "spell.largeMire",
 				"val" : 20
 			}
 		},
-		
-		"graphics" :
-		{
+
+		"graphics" : {
 			"animation" : "peachville/battle/creatures/peachess.def",
 
 			"map" : "peachville/map/creatures/peachessadv.def",
@@ -73,15 +74,16 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 50.00, "attack" : 2.00 },
-			
-			
-			"missile" :
-			{
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 50.0,
+				"attack" : 2.0
+			},
+
+			"missile" : {
 				"projectile" : "peachville/battle/creatures/missile2.def",
 				"attackClimaxFrame" : 0,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 25,
 					"upperY" : -40,
 					"middleX" : 25,
@@ -89,19 +91,23 @@
 					"lowerX" : 25,
 					"lowerY" : -40
 				},
-				"frameAngles" : [ -90, -45, 0, 45, 90]
-		}
+				"frameAngles" : [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
 		},
 
-		
-"sound" : 
-		{
-			"attack": "MONKATTK.wav",
-			"defend": "MONKDFND.wav",
-			"killed": "MONKKILL.wav",
-			"move": "MONKMOVE.wav",
-			"shoot": "MONKSHOT.wav",
-			"wince": "MONKWNCE.wav"
+		"sound" : {
+			"attack" : "MONKATTK.wav",
+			"defend" : "MONKDFND.wav",
+			"killed" : "MONKKILL.wav",
+			"move" : "MONKMOVE.wav",
+			"shoot" : "MONKSHOT.wav",
+			"wince" : "MONKWNCE.wav"
 		}
 	}
 }

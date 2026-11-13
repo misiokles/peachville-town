@@ -1,86 +1,86 @@
 {
-	"greatFireBeast" : 
-	{
-		"name" : { "singular" : "Great Fire Beast", "plural" : "Great Fire Beasts" },
-		
+	"greatFireBeast" : {
+		"name" : {
+			"singular" : "Great Fire Beast",
+			"plural" : "Great Fire Beasts"
+		},
+
 		"level" : 6,
 
 		"special" : false,
-		
-		"faction" : "neutral", 
-		
-		"cost" : { "gold" : 900 },
-		
+
+		"faction" : "neutral",
+
+		"cost" : {
+			"gold" : 900
+		},
+
 		"fightValue" : 1400,
-		
+
 		"aiValue" : 1700,
-		
+
 		"growth" : 2,
-		
-//		"hordeGrowth" : 1,
-	
+
+		//		"hordeGrowth" : 1,
+
 		"attack" : 14,
-		
+
 		"defense" : 16,
-		
+
 		"hitPoints" : 80,
-		
+
 		"speed" : 6,
-		
-		"damage" : { "min" : 16,"max" : 20},
-		"advMapAmount" : { "min" : 5,"max" : 15},
+
+		"damage" : {
+			"min" : 16,
+			"max" : 20
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 15
+		},
 
 		"doubleWide" : true,
-		
-"abilities" :
-		{
-			"fireBreath" :
-			{
+
+		"abilities" : {
+			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"slowImmune": {
+			"slowImmune" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype":  "spell.slow",
-				"addInfo":0
-				},
-				
-			"immuneToFire" :
-			{
+				"subtype" : "spell.slow",
+				"addInfo" : 0
+			},
+
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
 			},
-			
-			"fireShield" :
-			{
+
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 25
 			},
-				
-			"infernoStrenght" :
-			{
+
+			"infernoStrenght" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.inferno",
 				"val" : 15
 			},
-			"infernoCast" :
-			{
-			"type" : "SPELLCASTER",
-			"subtype" : "spell.inferno",
-			"val" : 1
+			"infernoCast" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.inferno",
+				"val" : 1
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 100
 			}
-		
-		
 		},
-		
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		{
+
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "peachville/battle/creatures/gfb22.def",
 
 			"map" : "peachville/map/creatures/gfb22adv.def",
@@ -91,21 +91,23 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00 }
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 20.0,
+				"attack" : 2.0
+			}
 		},
 
-		
-		"sound" : 
-		{
-			"attack": "BGORATTK.wav",
-			
-			"defend": "peachville/hapalops_defence.wav",
+		"sound" : {
+			"attack" : "BGORATTK.wav",
 
-			"killed": "peachville/hapalops_death.wav",
+			"defend" : "peachville/hapalops_defence.wav",
 
-			"move": "peachville/hapalops_move.wav",
+			"killed" : "peachville/hapalops_death.wav",
 
-			"wince": "peachville/hapalops_wince.wav"
+			"move" : "peachville/hapalops_move.wav",
+
+			"wince" : "peachville/hapalops_wince.wav"
 		}
 	}
 }

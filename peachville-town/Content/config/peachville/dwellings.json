@@ -1,106 +1,173 @@
 {
-    "core:creatureGeneratorCommon" : {
-        "types" : {
-            "hoatzinsTrees" : {
-                "name" : "Hoatzins' Trees",
-                "creatures" : [[ "hoatzin" ]],
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"hoatzinsTrees" : {
+				"name" : "Hoatzins' Trees",
+				"creatures" : [
+					[
+						"hoatzin"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/htree1_map.def",
-                        "mask" : [ "VVV", "VBB", "VBA" ]
-                    }
-                }
-            },
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/htree1_map.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
+					}
+				}
+			},
 			"glitteringTrees" : {
-                "name" : "Glittering Trees",
-                "creatures" : [[ "splendidHoatzin" ]],
+				"name" : "Glittering Trees",
+				"creatures" : [
+					[
+						"splendidHoatzin"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/htrees2.def",
-                         "mask" : [ "VVV", "VBB", "VAB" ]
-                    }
-                }
-            },
-			 "beastsLake" : {
-                "name" : "Beasts' Lake",
-                "creatures" : [[ "lightningBeast" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/htrees2.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
+					}
+				}
+			},
+			"beastsLake" : {
+				"name" : "Beasts' Lake",
+				"creatures" : [
+					[
+						"lightningBeast"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/beastlake221.def",
-                        "mask" : [ "VVV", "VAB" ]
-                    }
-                }
-            },
-			 "volcanicLake" : {
-                "name" : "Volcanic Lake",
-                "creatures" : [[ "fireBeast" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/beastlake221.def",
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"volcanicLake" : {
+				"name" : "Volcanic Lake",
+				"creatures" : [
+					[
+						"fireBeast"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/volcaniclake.def",
-                        "mask" : [ "VVV", "VAB" ]
-                    }
-                }
-            },
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/volcaniclake.def",
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
 			"arachniasPortal" : {
-                "name" : "Arachnias' Portal",
-                "creatures" : [[ "arachnia" ]],
+				"name" : "Arachnias' Portal",
+				"creatures" : [
+					[
+						"arachnia"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/arachniaportal_map.def",
-                        "mask" : [ "VV", "BA" ]
-                    }
-                }
-            },
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/arachniaportal_map.def",
+						"mask" : [
+							"VV",
+							"BA"
+						]
+					}
+				}
+			},
 			"peachessMushroom" : {
-                "name" : "Peachess' Mushroom",
-                "creatures" : [[ "apricotess" ]],
+				"name" : "Peachess' Mushroom",
+				"creatures" : [
+					[
+						"apricotess"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/sorceressmushroom.def",
-                        "mask" : [ "VVV", "VVV", "VAV" ]
-                    }
-                }
-            },
-			
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/sorceressmushroom.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						]
+					}
+				}
+			},
+
 			"woodyHill" : {
-                "name" : "Woody Hill",
-                "creatures" : [[ "pBeast" ]],
+				"name" : "Woody Hill",
+				"creatures" : [
+					[
+						"pBeast"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/pdwell.def",
-                        "mask" : [ "VV", "VA" ]
-                    }
-                }
-            },
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/pdwell.def",
+						"mask" : [
+							"VV",
+							"VA"
+						]
+					}
+				}
+			},
 			"dinoletsSite" : {
-                "name" : "Dinolets' Site",
-                "creatures" : [[ "greenDinolet" ]],
+				"name" : "Dinolets' Site",
+				"creatures" : [
+					[
+						"greenDinolet"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/dinodwell.def",
-                        "mask" : [ "VVV", "VVV", "VBA" ]
-                    }
-                }
-            },
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/dinodwell.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
 			"gophersHoles" : {
-                "name" : "Gophers' Holes",
-                "creatures" : [[ "hornedGopher" ]],
+				"name" : "Gophers' Holes",
+				"creatures" : [
+					[
+						"hornedGopher"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "peachville/map/dwellings/gopherdwelling.def",
-                        "mask" : [ "VV", "VA" ]
-                    }
-                }
-            }	
+				"templates" : {
+					"default" : {
+						"animation" : "peachville/map/dwellings/gopherdwelling.def",
+						"mask" : [
+							"VV",
+							"VA"
+						]
+					}
+				}
+			}
 		}
 	}
 }
